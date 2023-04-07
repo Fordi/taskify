@@ -1,0 +1,10 @@
+{
+  "name": "@fordi-org/taskify",
+  "version": "1.0.0",
+  "description": "Yet another task list plugin for markdown-it",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Bryan Elliott<fordiman@gmail.com>",
+  "license": "ISC",
+  "keywords": ["markdown", "markdown-it", "markdown-it-plugin", "task", "list", "todo", "checkbox"]
+}
