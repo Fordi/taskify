@@ -1,5 +1,5 @@
 const PATTERN = /^\[(?:[\s_-])?([Xx])?\]\s(.*)/;
-const ALL_BOXES = /[-*]\s+\[(?:[\s_-])?([Xx])?\]\s/g;
+const ALL_BOXES = /(?:-|\*|\d+\.)\s+\[(?:[\s_-])?([Xx])?\]\s/g;
 
 export default function taskify(md, { labelClass, itemClass, listClass, checkboxClass, readOnly = true } = {}) {
   const checkboxAttrs = {
